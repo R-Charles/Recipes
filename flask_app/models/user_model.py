@@ -56,3 +56,8 @@ class User:
             flash( "Your passwords do not match", "error_registration_password_confirmation" )
             is_valid = False
         return is_valid
+
+        # if Login.email_match({'emails': login['emails']}):#
+        #   is_valid = False#
+        #   flash( "Email already exists", "error_email_error" )
+        #return is_valid#
